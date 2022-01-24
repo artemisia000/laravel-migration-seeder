@@ -20,13 +20,13 @@ class HolidaysTableSeeder extends Seeder
 
             $new_holiday->place = 'Santo Domingo';
             $new_holiday->people_num = 'Santo Domingo';
-            $new_holiday->price = rand(0,8000);
-            $new_holiday->date_departure = '25/12/2022';
-            $new_holiday->date_return = '11/01/2023';
+            $new_holiday->price = '150';
+            $new_holiday->date_departure = '12-12-2022';
+            $new_holiday->date_return = '12-01-2023';
             $new_holiday->fly = 'Qatar';
             $new_holiday->hotel = 'La Fenice';
             $new_holiday->description = 'lorem ipsum dolor sit amet, consectetur adipisicing elit';
-            $new_holiday->available= 'true';
+            
 
 
             $new_holiday->save();

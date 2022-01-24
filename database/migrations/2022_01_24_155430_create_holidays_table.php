@@ -17,7 +17,7 @@ class CreateHolidaysTable extends Migration
             $table->id();
             $table->string('place',100);
             $table->string('people_num',20);
-            $table->tinyInteger('price');
+            $table->tinyInteger('price',1000);
             $table->date('date_departure');
             $table->date('date_return');
             $table->string('fly',40);
