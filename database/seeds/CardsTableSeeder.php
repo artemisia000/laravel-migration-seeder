@@ -22,8 +22,7 @@ class CardsTableSeeder extends Seeder
 
         $new_card->title = $faker->text(50);
         $new_card->body = $faker->paragraphs(4,true);
-        $new_card->slug = $faker->text(50);
-        $new_card->image = $faker->imageUrl(500,500,'beach',true);
+       
 
 
         $new_card->save();
